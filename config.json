@@ -1,0 +1,4 @@
+{
+    "network_file_in":"matsim.network.xml.gz",
+    "network_file_out":"matsim.network_w_interventions.xml.gz" 
+}
