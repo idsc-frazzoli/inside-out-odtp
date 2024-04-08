@@ -1,4 +1,10 @@
 {
-    "network_file_in":"matsim.network.xml.gz",
-    "network_file_out":"matsim.network_w_interventions.xml.gz" 
+    "network_file_in":"./data/zurich/switzerland_network_new.xml.gz",
+    "network_file_out":"./data/zurich/switzerland_network_interventions.xml.gz",
+    "intervention": {
+        "name": "speed_limit",
+        "params": {
+            "limit_kph": 60 
+        }
+    }
 }
